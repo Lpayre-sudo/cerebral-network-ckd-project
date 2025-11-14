@@ -144,13 +144,13 @@ Le dépôt contient un notebook Jupyter unique organisé en blocs thématiques, 
 
 #### Comparaison intergroupe par région
 
-![Boxplots DTPA](DTPA_boxplot_CTRL_vs_ARD.png)
+![Boxplots DTPA](figures/DTPA_boxplot_CTRL_vs_ARD.png)
 
 Les boxplots montrent une augmentation significative de la captation du DTPA dans toutes les régions cérébrales du groupe ARD, traduisant une altération généralisée de la perméabilité de la BHE.
 
 #### Distribution régionale de la captation
 
-![Heatmap DTPA](DTPA_heatmap_CTRL_vs_ARD.png)
+![Heatmap DTPA](figures/DTPA_heatmap_CTRL_vs_ARD.png)
 
 La heatmap illustre le gradient de captation entre groupes : valeurs faibles et homogènes chez les contrôles (teintes violettes), élévation marquée et hétérogène chez les ARD (teintes orangées à jaunes).
 
@@ -158,13 +158,13 @@ La heatmap illustre le gradient de captation entre groupes : valeurs faibles et 
 
 #### Réseau de corrélation métabolique - Groupe contrôle
 
-![Connectome FDG Contrôle](CTRL_FDG_zscores_corr_spearman_connectogram_thresh0_70.png)
+![Connectome FDG Controle](figures/CTRL_FDG_zscores_corr_spearman_connectogram_thresh0.70.png)
 
 Le connectome métabolique des animaux contrôles présente une organisation dense et hiérarchisée (densité : 87,5 %), avec plusieurs hubs métaboliques majeurs (thalamus-hypothalamus, tronc cérébral, substance blanche cérébelleuse).
 
 #### Analyse différentielle des corrélations métaboliques
 
-![Comparaison CTRL vs ARD FDG](comparison_CTRL_vs_ARD_FDG_connectogram.png)
+![Comparaison CTRL vs ARD FDG](figures/comparison_CTRL_vs_ARD_FDG_connectogram.png)
 
 L'analyse par transformation de Fisher-z révèle une augmentation significative des corrélations métaboliques dans le groupe ARD (40 connexions sur 120, soit 33,3 %). Les arcs bleus indiquent une hyperconnectivité diffuse, particulièrement prononcée au sein des régions corticales et de leurs connexions avec les structures sous-corticales.
 
@@ -173,3 +173,12 @@ L'analyse par transformation de Fisher-z révèle une augmentation significative
 - **⁹⁹ᵐTc-DTPA** : Augmentation de captation (×3) et fragmentation du réseau de corrélation (densité : 98,3% → 35,8%)
 - **¹⁸F-FDG** : Augmentation de captation (×1,45) et hyperconnectivité métabolique (densité : 87,5% → 100%)
 - **Dissociation** : Profils opposés entre perméabilité vasculaire (fragmentation) et métabolisme (hyperintégration)
+
+## Auteur
+
+**Léa Payre**  
+Master 2 Médicaments et Produits de Santé  
+Parcours Digital Solutions for Pharmaceutical Sciences (DigiPharm)  
+Faculté de Pharmacie - Aix-Marseille Université  
+Année universitaire 2025-2026
+
